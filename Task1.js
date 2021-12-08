@@ -8,6 +8,26 @@
 // 5. The function should be immutable (return a new array).
 // Function example:
 // export const groupBy = (arr, key) => {}
+//I nput data:
+// [
+// { id: 1, universe: "marvel", name: "Spider Man" },
+// { id: 2, universe: "marvel", name: "Iron Man" },
+// { id: 3, universe: "dc", name: "Aqua Man" },
+// { id: 4, universe: "dc", name: "Bat Man" },
+// { id: 5, universe: "marvel", name: "Hulk" }
+// ]
+// Result:
+// {
+//  marvel: [
+//  { id: 1, universe: "marvel", name: "Spider Man" },
+//  { id: 2, universe: "marvel", name: "Iron Man" },
+//  { id: 5, universe: "marvel", name: "Hulk" }
+//  ]
+//  dc: [
+//  { id: 3, universe: "dc", name: "Aqua Man" },
+//  { id: 4, universe: "dc", name: "Bat Man" }
+//  ]
+// }
 
 // const groupBy = [
 //     { id: 1, universe: 'marvel', name: 'Spider Man' },
