@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./toDo.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./images/Navbar.png" alt="navbar" />
+    </nav>
+    <div class="container">
+      <img id='side' src="./images/Sidebar.png" alt="sidebar" />
+      <div id="main">
+        <div id="newTask">
+          <form action="">
+            <input
+              type="text"
+              placeholder="+ Add a task, press Enter to save"
+            />
+            <button id="push">Add</button>
+          </form>
+          <p>Total: 7</p>
+        </div>
+          <div class="toDo">
+            <h5>To do (3)</h5>
+            <ul>
+              <li>
+                <form action="">
+                  <input type="checkbox" /> Add Icon to Dashboard
+                  <img id='edit' src="./images/edit_icon_128873 1.png" alt="edit_icon" />
+                  <img id='layer' src="./images/Layer 2.png" alt="layer" />
+                </form>
+              </li>
+              <li>
+                <form action="">
+                  <input type="checkbox" />Create To-Do List
+                  <img src="./images/edit_icon_128873 1.png" alt="edit_icon" />
+                  <img src="./images/Layer 2.png" alt="layer" />
+                </form>
+              </li>
+              <li>
+                <form action="">
+                  <input type="checkbox" />Add Icon to Das
+                  <img src="./images/Layer 2.png" alt="layer" />
+                </form>
+              </li>
+                </ul>
+            </div>
+          </div>
+          <div class="completed">
+            <h5>Completed (4)</h5>
+            <ul>
+              <li>
+                <form action="">
+                  <input type="checkbox" />
+                  <strike>Add Icon to Dashboard</strike>
+                  <img src="./images/Layer 2.png" alt="layer" />
+                </form>
+              </li>
+              <li>
+                <form action="">
+                  <input type="checkbox" />
+                  <strike>Add Icon to Dashboard</strike>
+                  <img src="./images/Layer 2.png" alt="layer" />
+                </form>
+              </li>
+              <li>
+                <form action="">
+                  <input type="checkbox" />
+                  <strike>Add Icon to Dashboard</strike>
+                  <img src="./images/Layer 2.png" alt="layer" />
+                </form>
+              </li>
+              <li>
+                <form action="">
+                  <input type="checkbox" />
+                  <strike>Add Icon to Dashboard</strike>
+                  <img src="./images/Layer 2.png" alt="layer" />
+                </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./toDoListScript.js"></script>
+  </body>
+</html>
